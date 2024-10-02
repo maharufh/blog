@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Wel Come To My Blog</h1>
+        <form id="blogForm">
+            <label for="blogName">Blog Name:</label>
+            <input type="text" id="blogName" required>
+
+            <label for="blogDescription">Blog Description:</label>
+            <textarea id="blogDescription" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>The output</h2>
+        <div id="blogContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
